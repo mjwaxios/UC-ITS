@@ -73,9 +73,10 @@ at auxcpu 10006
 #---------------------------
 set imp enabled
 set imp mac=e2:6c:84:00:0C:49
-set imp ip=10.10.10.49/24
-set imp gw=10.10.10.1
-set imp host=0.0.0.0
+#set imp ip=10.10.10.49/24
+#set imp gw=10.10.10.1
+set imp dhcp
+set imp host=10.10.10.49
 at imp tap:tap0
 #---------------------------
 set ch enabled
